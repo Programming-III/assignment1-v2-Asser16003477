@@ -68,7 +68,10 @@ Person:: Instructor(string department, int exprienceYears){
 this->department=department;
 this->exprienceYears=exprienceYears;
 }
-Person:: Instructor
+Person:: Instructor(){
+department="Computer Science";
+exprienceYears="5";
+}
 
 
 
